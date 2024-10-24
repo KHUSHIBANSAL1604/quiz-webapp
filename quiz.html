@@ -1,0 +1,45 @@
+x<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Quiz Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h2>Welcome, <span id="user-name"></span>!</h2>
+      <button id="end-quiz">End Quiz</button>
+    </nav>
+    <div id="status-bar">
+      <span id="attempted">Attempted: 0</span>
+      <span id="unattempted">Unattempted: 10</span>
+      <span id="review">Marked for Review: 0</span>
+      <span id="timer">Time Left: <span id="countdown"></span></span>
+    </div>
+  </header>
+
+  <main id="quiz-container">
+    <div id="question-container">
+      <h3 id="question"></h3>
+      <ul id="options">
+        
+      </ul>
+      <button id="mark-review">Mark for Review</button>
+    </div>
+    <div id="quiz-navigation">
+      <button id="prev-question">Previous</button>
+      <button id="next-question">Next</button>
+    </div>
+  </main>
+
+  <footer>
+    <h3 id="score"></h3>
+    <button id="reattempt">Reattempt Quiz</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

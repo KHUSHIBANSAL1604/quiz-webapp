@@ -1,0 +1,54 @@
+[
+    {
+    "question":"Inside which HTML element do we put the Javascript?",
+    "options": ["<script>","<javascript>", "<scripted>", "<body>"],
+"correct": 0
+
+    },
+    {
+       "question":"Which of this is not a logical operator?",
+        "options":["=", "||", "==","!="],
+        "correct":0 
+
+    },
+    {
+        "question": " We cannot use the keyword break simply within?",
+        "options":[ "while", "for", "if-else", "do-while"],
+        "correct": 2
+    },
+    {
+        "question": "The global variables are ?",
+    "options":["External","Internal","Both","None"],
+        "correct": 1
+    },
+    {
+        "question": " Which of the following is the root tag of the HTML document?",
+        "options":[ "<body>", "<html>","<title>","<head>"],
+        "correct": 1
+    },
+    {
+        "question": " Which of the following tag is used to insert a line-break in HTML?",
+        "options": ["<br>", "<a>","<pre>","<b>"],
+        "correct": 0
+    },
+    {
+        "question":"Which of the below is paragraph tag?",
+        "options":[ "<ph>","<pa>","<p>","<pr>"],
+        "correct": 2
+    },
+    {
+        "question": "How to create an ordered list in html?",
+        "options": ["<ul>", "<li>","<ol>", "<i>"],
+        "correct": 2
+    },
+    {
+     "question": "Which of the following tag is used for inserting the largest heading in Html?",
+ "options":[ "h3","h1","h2", "h5"],
+        "correct":1
+    },
+    {
+        "question": "The definition of the function abort() is in which header file?",
+      "options":["stdlib.h","assert.h", " stdio.h", "stdarg.h"],
+      "correct": 0
+    }
+]
